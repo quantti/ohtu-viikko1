@@ -30,7 +30,7 @@ public class Varasto {
         {
             this.saldo = alkuSaldo;
         } else {
-            this.saldo = tilavuus;  // täyteen ja ylimäärä hukkaan!
+            this.saldo = getTilavuus();  // täyteen ja ylimäärä hukkaan! EDIT: tää piti korjata, kun ei muuten menny testi läpi new Varasto(-1, 4) antoi saldoksi -1
         }
     }
 
