@@ -1,3 +1,4 @@
 *.tmp
 build/
 
+/NhlStatistics1/.nb-gradle/
